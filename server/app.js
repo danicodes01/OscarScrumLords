@@ -27,7 +27,7 @@ app.use('/favicon.ico', express.static(path.resolve(__dirname, 'assets', 'stockc
 //middleware
 //set API FOLDER to api/ googleMaps (or change if named something else)
 // app.use('/api/googleMaps', Maps); 
-
+// changing something 
 //call to API search key, store in LANDMARKS DB: address_id, phone, services, bus_hours
 app.post('/landmarks', (req, res) => {
   const { addressId, phone, services, busHours } = req.body;
