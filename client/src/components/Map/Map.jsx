@@ -27,7 +27,7 @@ const center = {
   lat: 29.951065,  
   lng: -90.071533
 };
-/**
+/*******
  * options for customizing map
  * styles: imported from mapStyles.js
  * disableDefault: toggle to remove unwanted UI elements, manually add UI´s below
