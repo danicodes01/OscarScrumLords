@@ -136,7 +136,7 @@ const Map = () => {
           <InfoWindow 
             position={{ lat: selected.lat, lng: selected.lng }} 
             onCloseClick={() => {
-              setSelected(null); //                        toggle window. second mouse click sets selected back to null 
+              setSelected(null); 
             }}
           >
             <div>
